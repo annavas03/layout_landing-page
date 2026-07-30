@@ -1,0 +1,27 @@
+@import './header.css';
+@import './content.css';
+@import './menu.css';
+@import './footer.css';
+
+:root {
+  --color-gray-white: #fff;
+  --color-main-bg: #1d1d1d;
+  --color-menu: #c2c2c2;
+
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  min-width: 320px;
+}
+
+body {
+  background-color: var(--color-main-bg);
+  margin: 0;
+}
+
+body:has(.page-menu:target) {
+  overflow: hidden;
+}
