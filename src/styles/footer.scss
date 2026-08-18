@@ -80,6 +80,20 @@
       box-shadow: 1px 4px 16px #e8e8f066;
     }
   }
+
+  &__button {
+    height: 56px;
+
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 1px 4px 16px #e8e8f066;
+    }
+  }
 }
 
 .contacts-info {
@@ -110,16 +124,6 @@
     color: var(--color-gray-white);
     text-decoration: none;
   }
-}
-
-.button {
-  height: 56px;
-
-  font-weight: 700;
-  font-size: 16px;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
 }
 
 @media (min-width: 744px) {
